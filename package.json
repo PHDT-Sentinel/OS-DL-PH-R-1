@@ -1,0 +1,27 @@
+{
+  "name": "os-dl-ph-r-1",
+  "version": "1.0.0",
+  "description": "An Open-Source Data Lake For Philippine Researchers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHDT-Sentinel/OS-DL-PH-R-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PHDT-Sentinel/OS-DL-PH-R-1/issues"
+  },
+  "homepage": "https://github.com/PHDT-Sentinel/OS-DL-PH-R-1#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
