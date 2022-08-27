@@ -3,6 +3,7 @@ const {
     retrieve,
     update,
     remove,
+    // signUp
 } = require('../services');
 
 module.exports = {
@@ -26,5 +27,10 @@ module.exports = {
         let result = await remove(req.body);
         res.status(result.status).send(result.data);
     },
+
+    // signUp: async (req, res) => {
+    //     let result = await signUp(req.body);
+    //     res.status(result.status).send(result.data);
+    // },
 
 }
