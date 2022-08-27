@@ -3,7 +3,7 @@ const {
     retrieve,
     update,
     remove,
-} = require('../services')
+} = require('../services');
 
 module.exports = {
 

@@ -1,4 +1,4 @@
-const firestore = require('../configs/firestore.config');
+const { firestore } = require('../configs/firebase.config');
 const logger = require('../configs/logger.config');
 require('dotenv').config();
 module.exports = {
